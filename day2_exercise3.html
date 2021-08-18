@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <style>
+    table {
+      background-color: white;
+    }
+
+    td, th {
+      border: 1px solid gray;
+      text-align: center;
+      padding: 10px;
+    }
+
+    .center {
+      margin-left: auto;
+      margin-right: auto;
+    }
+
+    h1 {
+      text-align: center;
+      color: black;
+    }
+  </style>
+</head>
+
+<body style="background-color:rgb(253, 250, 250);">
+  <h1><u>Registration Form</u></h1>
+
+  <table class="center">
+    <tr>
+      <td>
+        First Name: <input type="text" name="First_Name" />
+      </td>
+      <td>
+        Middle Name: <input type="text" name="Middle_Name" />
+      </td>
+      <td>
+        Last Name: <input type="text" name="Last_Name" />
+      </td>
+    </tr>
+    <tr>
+      <td colspan="3">
+        Address: <br>
+        <textarea rows="1" cols="10" name="Address">
+        </textarea> </br>
+      </td>
+    </tr>
+    <tr>
+      <td>
+        Gender:
+        <input type="radio" name="gender" value="Male"> Male
+        <input type="radio" name="gender" value="Female"> Female
+      </td>
+      <td colspan="2">
+        Career Path:
+        <select name="dropdown">
+          <option value="Front-end Developer" selected>Front-end Developer</option>
+          <option value="Back-end Developer" selected>Back-end Developer</option>
+          <option value="Full-Stack Developer" selected>Full-Stack Developer</option>
+        </select>
+      </td>
+    </tr>
+
+    <tr>
+      <td colspan="3">
+        Technical Skills:
+        <input type="checkbox" name="HTML" value="On"> HTML
+        <input type="checkbox" name="CSS" value="On"> CSS
+        <input type="checkbox" name="Javascript" value="On"> Javascript
+        <input type="checkbox" name="MySQL" value="On"> MySQL
+        <input type="checkbox" name="Php" value="On"> Php
+        <input type="checkbox" name="Laravel" value="On"> Laravel
+        <input type="checkbox" name="React Js" value="On"> React Js
+        </select>
+      </td>
+    </tr>
+  </table>
+  <br>
+  <input type="submit" value="Submit" style="margin-left:50%">
+  </br>
+
+</body>
+
+</html>
